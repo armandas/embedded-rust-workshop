@@ -3,3 +3,6 @@ authors = ["Armandas Jarušauskas"]
 language = "en"
 src = "src"
 title = "Rust Workshop"
+
+[output.html]
+git-repository-url = "https://github.com/armandas/embedded-rust-workshop"
