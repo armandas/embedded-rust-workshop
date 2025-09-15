@@ -27,6 +27,15 @@ Now it's time for you to try and extend the program to read the GPIO input state
     }
    ```
 
+### Explanation
+
+You may be tempted to think that `high` means ON and `low` means off, however, the logic of both the button and the LED
+is inverted.
+
+Button has a pull-up resistor and connects the pin to ground when pressed.
+
+The LED has its anode connected to the 3.3 V supply and the cathode is connected to the open-drain output. When the output is set to low, it is connected to ground, allowing the current to flow and thereby turning the LED on.
+
 </details>
 
 [1]: https://docs.espressif.com/projects/rust/esp-hal/1.0.0-rc.0/esp32c6/esp_hal/gpio/struct.Input.html
