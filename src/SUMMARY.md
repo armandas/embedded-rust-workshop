@@ -1,6 +1,6 @@
 # Summary
 
-- [Setup](./setup/README.md)
+- [Setup](./README.md)
   - [Software setup](./setup/software.md)
   - [Hardware information](./setup/hardware.md)
 - [Hello World](./hello_world.md)
