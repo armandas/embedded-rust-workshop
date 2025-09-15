@@ -1,0 +1,5 @@
+[book]
+authors = ["Armandas Jarušauskas"]
+language = "en"
+src = "src"
+title = "Rust Workshop"
