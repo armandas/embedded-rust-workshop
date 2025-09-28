@@ -1,6 +1,6 @@
 # Interrupts
 
-In the last exercise, we learnt how to read to read a GPIO pin state.
+In the last exercise, we learnt how to read a GPIO pin state.
 However, it's not always desirable to poll the pin state in software.
 This is where interrupts come it. We can ask hardware to notify us whenever the pin state changes.
 

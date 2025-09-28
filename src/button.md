@@ -1,4 +1,4 @@
-# Working with inputs
+# Exercise: working with inputs
 
 We have worked through an example of driving a GPIO output.
 Now it's time for you to try and extend the program to read the GPIO input state.
