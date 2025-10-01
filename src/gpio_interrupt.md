@@ -52,6 +52,14 @@ configure peripherals etc. `Option` allows us to initialize an "empty" object fi
 
 Next, let's look how we can define an interrupt handler function.
 
+Import the `handler` macro:
+
+```rust
+use esp_hal::handler;
+```
+
+Then define the handler function at the bottom of the file, like this:
+
 ```rust
 #[handler]
 fn button_handler() {
@@ -98,6 +106,12 @@ io.set_interrupt_handler(button_handler);
 Finally, we start to listen to the button events and move the button object into our global state.
 We will use a "rising edge" event, which means that the interrupt will be triggered on button release.
 
+Import `Event`:
+
+```rust
+use esp_hal::gpio::Event;
+```
+
 Add this code right after the existing declaration of `button`.
 
 ```rust
@@ -109,7 +123,7 @@ critical_section::with(|cs| {
 
 ## Experiment
 
-Try changing the event type to rising edge. Do you observe any difference?
+Try changing the event type to falling edge. Do you observe any difference?
 
 
 [1]: https://docs.espressif.com/projects/rust/esp-hal/1.0.0-rc.0/esp32c6/esp_hal/attr.handler.html
