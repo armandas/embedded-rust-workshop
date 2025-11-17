@@ -12,3 +12,4 @@
   - [Exercise: toggle LED with interrupt](./led_with_interrupt.md)
 - [PWM](./pwm.md)
   - [Exercise: LED breathing effect](./pwm_led_breathing.md)
+- [Touch panel](./touch_panel.md)
