@@ -13,3 +13,5 @@
 - [PWM](./pwm.md)
   - [Exercise: LED breathing effect](./pwm_led_breathing.md)
 - [Touch panel](./touch_panel.md)
+- [LCD](./lcd.md)
+  - [Embedded graphics crate](./embedded_graphics.md)
