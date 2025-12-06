@@ -20,3 +20,7 @@
   - [Framebuffer](./framebuffer.md)
   - [DMA](./dma.md)
   - [Displaying formatted text](./text_formatting.md)
+- [IMU](./imu.md)
+  - [I2C bus sharing](./i2c_bus_sharing.md)
+  - [Basic IMU driver](./basic_imu_driver.md)
+  - [Testing IMU driver](./testing_imu_driver.md)
