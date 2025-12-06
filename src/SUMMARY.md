@@ -19,3 +19,4 @@
   - [Embedded graphics crate](./embedded_graphics.md)
   - [Framebuffer](./framebuffer.md)
   - [DMA](./dma.md)
+  - [Displaying formatted text](./text_formatting.md)
