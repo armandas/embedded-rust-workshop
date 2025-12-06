@@ -3,7 +3,7 @@
 We'll be starting our graphics journey using the [`embedded-graphics`][1] crate. This crate provides the functionality
 for drawing basic shapes and text.
 
-Let's start by putting a "Hellow, World!" text on the screen.
+Let's start by putting a "Hello, World!" text on the screen.
 
 First, import the necessary types:
 

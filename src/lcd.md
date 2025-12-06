@@ -10,4 +10,4 @@ talk through the initialization steps.
 git clone https://github.com/armandas/esp32-c6-lcd-template.git hello_display
 ```
 
-Then open the project with: by opening the directory `hello_display` with your favourite editor (e.g. `code hello_display`).
+Then open the project by opening the directory `hello_display` with your favourite editor (e.g. `code hello_display`).
