@@ -16,3 +16,4 @@
 - [LCD](./lcd.md)
   - [Embedded graphics crate](./embedded_graphics.md)
   - [Framebuffer](./framebuffer.md)
+  - [DMA](./dma.md)
