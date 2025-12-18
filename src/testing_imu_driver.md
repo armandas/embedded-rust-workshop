@@ -2,7 +2,7 @@
 
 Now that we got our basic IMU driver written, let's test it!
 
-`cargo-generate` set's up our project as a library with a single binary application.
+`esp-generate` set's up our project as a library with a single binary application.
 We therefore need to import our library, which has the same name as our project:
 
 ```rust

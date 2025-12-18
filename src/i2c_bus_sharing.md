@@ -8,7 +8,7 @@ In the current setup, the touch panel driver is given an exclusive access to the
 Our IMU is also on the I2C bus, so we have to share the peripheral between the two device drivers.
 
 As explained in the [`embedded-hal`][1] crate documentation, we can use the [`embedded-hal-bus`][2] for this.
-The crate provides several types of abstractions for bus sharing, bus since we're working in a single-threaded
+The crate provides several types of abstractions for bus sharing, but since we're working in a single-threaded
 application, a `RefCell` will be sufficient.
 
 Let's start by importing the necessary types.

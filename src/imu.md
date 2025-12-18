@@ -1,6 +1,6 @@
 # IMU
 
-In this workshop, we work with the [IMU][1] . Unlike the previous workshops, however,
+In this workshop, we work with the [IMU][1]. Unlike the previous workshops, however,
 we will not be using an existing crate, but will develop a basic driver ourselves.
 There are a couple of reasons for this:
 

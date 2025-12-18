@@ -66,7 +66,7 @@ Now we're getting to the exciting part: reading data from the IMU via the I2C bu
 We'll start easy, by reading the fixed chip ID. The fact that the ID is fixed will allow us to say with
 confidence if our code is working or not.
 
-Since we don't like magic numbers, so let's define our register addresses.
+We don't like magic numbers, so let's define our register addresses.
 
 ```rust
 mod registers {
