@@ -24,3 +24,4 @@
   - [I2C bus sharing](./i2c_bus_sharing.md)
   - [Basic IMU driver](./basic_imu_driver.md)
   - [Testing IMU driver](./testing_imu_driver.md)
+  - [IMU configuration](./imu_configuration.md)
