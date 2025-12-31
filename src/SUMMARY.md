@@ -25,3 +25,4 @@
   - [Basic IMU driver](./basic_imu_driver.md)
   - [Testing IMU driver](./testing_imu_driver.md)
   - [IMU configuration](./imu_configuration.md)
+  - [Reading IMU temperature](./imu_temperature.md)
