@@ -26,3 +26,4 @@
   - [Testing IMU driver](./07_imu/testing_imu_driver.md)
   - [IMU configuration](./07_imu/imu_configuration.md)
   - [Reading IMU temperature](./07_imu/imu_temperature.md)
+  - [Reading IMU data](./07_imu/imu_data.md)
