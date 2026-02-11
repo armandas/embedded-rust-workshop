@@ -27,3 +27,4 @@
   - [IMU configuration](./07_imu/imu_configuration.md)
   - [Reading IMU temperature](./07_imu/imu_temperature.md)
   - [Reading IMU data](./07_imu/imu_data.md)
+  - [Exercise: configure IMU sensitivity](./07_imu/imu_sensitivity.md)
